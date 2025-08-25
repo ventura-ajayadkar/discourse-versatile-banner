@@ -62,7 +62,7 @@ banner_background_image_dark:
 background_color:
   type: string
   # default: "#EED4A1"
-  default: ""
+  default: "#F4F0FF"
 background_color_dark:
   type: string
   default: ""
