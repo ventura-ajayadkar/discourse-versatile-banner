@@ -153,7 +153,11 @@ third_column_content:
 fourth_column_content:
   type: string
   textarea: true
-  default: ""
+  default: |
+    <h3>Last box</h3>
+    <p>
+      Pellentesque ut lacinia nunc,
+    </p>
 first_column_size:
   type: string
   default: "auto"
