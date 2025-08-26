@@ -86,22 +86,8 @@ link_text_color_dark:
   default: ""
 main_heading_content:
   type: string
-  textarea: true
-  default: |
-    <h2 class="x-title">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </h2>
-    <div class="colored-line"></div>
-    <div class="description">
-      <p>
-        Nulla ullamcorper augue vel sodales pellentesque. Sed
-        vitae sapien sit amet mauris consequat malesuada.
-        Vestibulum vitae iaculis nisl, vel aliquet velit.
-        Fusce venenatis laoreet diam, non dictum nisl
-        vestibulum non.
-      </p>
-    </div>
-    <div class="colored-line"></div>
+  textarea: false
+  default: ""
 first_column_content:
   type: string
   textarea: true
@@ -124,40 +110,17 @@ second_column_content:
   type: string
   textarea: true
   default: |
-    <h3>Another simple box</h3>
-    <p>
-      Integer velit ante,
-      <a href="https://discourse.org">DISCOURSE</a>
-      amet tristique in, gravida at ligula. Sed gravida mauris id
-      neque vestibulum semper. Suspendisse potenti. Nam
-      nec maximus ligula. Ut eget semper est. Sed ornare
-      sit amet justo eu rutrum. Integer sit amet facilisis ipsum.
-    </p>
-    <div class="buttons" id="my-button">
-      <a href="#" class="btn btn-icon-text">My new button</a>
-    </div>
+    <h3>second box</h3>
 third_column_content:
   type: string
   textarea: true
   default: |
-    <h3>Yet middle box</h3>
-    <p>
-      Pellentesque ut lacinia nunc, eu molestie nulla.
-      Pellentesque viverra nisi urna, at hendrerit nisl
-      sodales in. Morbi auctor sodales nisi, eget aliquam
-      justo maximus in. Suspendisse a felis a massa
-      elementum pellentesque quis eget dolor. Orci varius
-      natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus.
-    </p>
+    <h3>middle box</h3>
 fourth_column_content:
   type: string
   textarea: true
   default: |
     <h3>Last box</h3>
-    <p>
-      Pellentesque ut lacinia nunc,
-    </p>
 first_column_size:
   type: string
   default: "auto"
