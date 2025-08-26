@@ -17,6 +17,7 @@ url_must_contain:
   type: list
   list_type: simple
   # default: /latest|/categories|/new|/unread|/top*|/tag/*|/tags/*|/c/*|/t/*
+  default: /
 dismissible:
   type: bool
   default: false
