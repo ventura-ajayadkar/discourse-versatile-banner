@@ -92,32 +92,32 @@ first_column_content:
   type: string
   textarea: true
   default: |
-    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:15px;text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160/orange/white?text=Image+1" alt="Image 1" style="max-width:320px;width:100%;height:auto;display:block;object-fit:cover;">
+    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;text-align:center;margin:0;">
+      <img src="https://placehold.co/640x320/orange/white?text=Image+1" alt="Image 1" style="width:100%;height:100%;display:block;margin:0;object-fit:cover;">
       <!-- <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">Product Announcements</figcaption> -->
     </figure>
 second_column_content:
   type: string
   textarea: true
   default: |
-    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:15px;text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160/orange/white?text=Image+2" alt="Image 2" style="max-width:320px;width:100%;height:auto;display:block;object-fit:cover;">
+    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;text-align:center;margin:0;">
+      <img src="https://placehold.co/640x320/orange/white?text=Image+2" alt="Image 2" style="width:100%;height:100%;display:block;margin:0;object-fit:cover;">
       <!-- <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">Developer APIs</figcaption> -->
     </figure>
 third_column_content:
   type: string
   textarea: true
   default: |
-    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:15px;text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160/orange/white?text=Image+3" alt="Image 3" style="max-width:320px;width:100%;height:auto;display:block;object-fit:cover;">
+    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;text-align:center;margin:0;">
+      <img src="https://placehold.co/640x320/orange/white?text=Image+3" alt="Image 3" style="width:100%;height:100%;display:block;margin:0;object-fit:cover;">
       <!-- <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">Trading and Strategies</figcaption> -->
     </figure>
 fourth_column_content:
   type: string
   textarea: true
   default: |
-    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:15px;text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160/orange/white?text=Image+4" alt="Image 4" style="max-width:320px;width:100%;height:auto;display:block;object-fit:cover;">
+    <figure style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;text-align:center;margin:0;">
+      <img src="https://placehold.co/640x320/orange/white?text=Image+4" alt="Image 4" style="width:100%;height:100%;display:block;margin:0;object-fit:cover;">
       <!-- <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">MTF Trading</figcaption> -->
     </figure>
 first_column_size:
