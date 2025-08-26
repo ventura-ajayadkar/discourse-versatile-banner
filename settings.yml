@@ -93,19 +93,6 @@ first_column_content:
   textarea: true
   default: |
     <h3>A simple box</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Sed id congue eros, sit amet suscipit libero. Nunc vitae
-      placerat est.
-    </p>
-    <div class="banner-list">
-      <ul>
-        <li><a href="https://twitter.com/discourse" target="_blank">A tweet</a> to wake up my friends</li>
-        <li>Put the photos in the bag</li>
-        <li>Rearrange books in the study</li>
-        <li>And the notes?</li>
-      </ul>
-    </div>
 second_column_content:
   type: string
   textarea: true
@@ -123,25 +110,25 @@ fourth_column_content:
     <h3>Last box</h3>
 first_column_size:
   type: string
-  default: "auto"
+  default: ""
 second_column_size:
   type: string
-  default: "auto"
+  default: ""
 third_column_size:
   type: string
-  default: "auto"
+  default: ""
 fourth_column_size:
   type: string
   default: ""
 first_column_icon:
   type: string
-  default: "gear"
+  default: ""
 second_column_icon:
   type: string
-  default: "https://d11a6trkgmumsb.cloudfront.net/original/3X/b/3/b33be9538df3547fcf9d1a51a4637d77392ac6f9.png"
+  default: ""
 third_column_icon:
   type: string
-  default: "wrench"
+  default: ""
 fourth_column_icon:
   type: string
   default: ""
