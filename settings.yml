@@ -93,7 +93,7 @@ first_column_content:
   textarea: true
   default: |
     <figure style="text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160?text=Image+1" alt="Image 1" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
+      <img src="https://placehold.co/320x160/orange/white?text=Image+1" alt="Image 1" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
       <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">Product Announcements</figcaption>
     </figure>
 second_column_content:
@@ -101,7 +101,7 @@ second_column_content:
   textarea: true
   default: |
     <figure style="text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160?text=Image+2" alt="Image 2" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
+      <img src="https://placehold.co/320x160/orange/white?text=Image+2" alt="Image 2" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
       <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">Developer APIs</figcaption>
     </figure>
 third_column_content:
@@ -109,7 +109,7 @@ third_column_content:
   textarea: true
   default: |
     <figure style="text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160?text=Image+3" alt="Image 3" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
+      <img src="https://placehold.co/320x160/orange/white?text=Image+3" alt="Image 3" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
       <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">Trading and Strategies</figcaption>
     </figure>
 fourth_column_content:
@@ -117,7 +117,7 @@ fourth_column_content:
   textarea: true
   default: |
     <figure style="text-align:center;margin:0;">
-      <img src="https://placehold.co/320x160?text=Image+4" alt="Image 4" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
+      <img src="https://placehold.co/320x160/orange/white?text=Image+4" alt="Image 4" style="max-width:240px;width:100%;height:auto;display:block;margin:0 auto;">
       <figcaption style="font-size:18px;font-weight:800;margin-top:8px;color:#333">MTF Trading</figcaption>
     </figure>
 first_column_size:
