@@ -16,7 +16,7 @@ display_on_homepage:
 url_must_contain:
   type: list
   list_type: simple
-  default: /latest|/categories|/new|/unread|/top*|/tag/*|/tags/*|/c/*|/t/*
+  # default: /latest|/categories|/new|/unread|/top*|/tag/*|/tags/*|/c/*|/t/*
 dismissible:
   type: bool
   default: false
@@ -61,7 +61,6 @@ banner_background_image_dark:
   default: ""
 background_color:
   type: string
-  # default: "#EED4A1"
   default: ""
 background_color_dark:
   type: string
