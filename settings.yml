@@ -92,22 +92,34 @@ first_column_content:
   type: string
   textarea: true
   default: |
-    <h3>A simple box</h3>
+    <figure style="text-align:center;margin:0;">
+      <img src="https://your-cdn.example.com/image1.png" alt="Alt text 1" style="max-width:120px;width:100%;height:auto;display:block;margin:0 auto;">
+      <figcaption style="font-size:14px;margin-top:6px;color:#333">Caption under image 1</figcaption>
+    </figure>
 second_column_content:
   type: string
   textarea: true
   default: |
-    <h3>second box</h3>
+    <figure style="text-align:center;margin:0;">
+      <img src="https://your-cdn.example.com/image2.png" alt="Alt text 2" style="max-width:120px;width:100%;height:auto;display:block;margin:0 auto;">
+      <figcaption style="font-size:14px;margin-top:6px;color:#333">Caption under image 2</figcaption>
+    </figure>
 third_column_content:
   type: string
   textarea: true
   default: |
-    <h3>middle box</h3>
+    <figure style="text-align:center;margin:0;">
+      <img src="https://your-cdn.example.com/image3.png" alt="Alt text 3" style="max-width:120px;width:100%;height:auto;display:block;margin:0 auto;">
+      <figcaption style="font-size:14px;margin-top:6px;color:#333">Caption under image 3</figcaption>
+    </figure>
 fourth_column_content:
   type: string
   textarea: true
   default: |
-    <h3>Last box</h3>
+    <figure style="text-align:center;margin:0;">
+      <img src="https://your-cdn.example.com/image4.png" alt="Alt text 4" style="max-width:120px;width:100%;height:auto;display:block;margin:0 auto;">
+      <figcaption style="font-size:14px;margin-top:6px;color:#333">Caption under image 4</figcaption>
+    </figure>
 first_column_size:
   type: string
   default: "25%"
