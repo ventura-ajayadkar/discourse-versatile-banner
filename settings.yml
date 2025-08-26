@@ -92,29 +92,41 @@ first_column_content:
   type: string
   textarea: true
   default: |
-    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;margin:0;">
-      <img src="https://placehold.co/640x320/orange/white?text=Image+1" alt="Image 1" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;">
+    <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
+      <div style="flex:1;min-height:0;width:100%;">
+        <img src="https://placehold.co/640x320/orange/white?text=Image+1" alt="Image 1" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+      </div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 1</div>
     </div>
 second_column_content:
   type: string
   textarea: true
   default: |
-    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;margin:0;">
-      <img src="https://placehold.co/640x320/orange/white?text=Image+2" alt="Image 2" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;">
+    <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
+      <div style="flex:1;min-height:0;width:100%;">
+        <img src="https://placehold.co/640x320/orange/white?text=Image+2" alt="Image 2" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+      </div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 2</div>
     </div>
 third_column_content:
   type: string
   textarea: true
   default: |
-    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;margin:0;">
-      <img src="https://placehold.co/640x320/orange/white?text=Image+3" alt="Image 3" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;">
+    <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
+      <div style="flex:1;min-height:0;width:100%;">
+        <img src="https://placehold.co/640x320/orange/white?text=Image+3" alt="Image 3" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+      </div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 3</div>
     </div>
 fourth_column_content:
   type: string
   textarea: true
   default: |
-    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:0;margin:0;">
-      <img src="https://placehold.co/640x320/orange/white?text=Image+4" alt="Image 4" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;">
+    <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
+      <div style="flex:1;min-height:0;width:100%;">
+        <img src="https://placehold.co/640x320/orange/white?text=Image+4" alt="Image 4" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+      </div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 4</div>
     </div>
 first_column_size:
   type: string
