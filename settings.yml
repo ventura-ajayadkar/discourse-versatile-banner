@@ -17,7 +17,7 @@ url_must_contain:
   type: list
   list_type: simple
   # default: /latest|/categories|/new|/unread|/top*|/tag/*|/tags/*|/c/*|/t/*
-  default: /
+  default: / # this is for only showing banner on home page 
 dismissible:
   type: bool
   default: false
