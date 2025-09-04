@@ -140,19 +140,19 @@ fifth_column_content:
     </div>
 first_column_size:
   type: string
-  default: "20%"
+  default: "60%"
 second_column_size:
   type: string
-  default: "15%"
+  default: "10%"
 third_column_size:
   type: string
-  default: "15%"
+  default: "10%"
 fourth_column_size:
   type: string
-  default: "15%"
+  default: "10%"
 fifth_column_size:
   type: string
-  default: "15%"
+  default: "10%"
 first_column_icon:
   type: string
   default: ""
