@@ -6,7 +6,7 @@ show_for_anon:
   default: true
 display_on_mobile:
   type: bool
-  default: false
+  default: "false"
 display_on_desktop:
   type: bool
   default: true
