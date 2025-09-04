@@ -164,7 +164,9 @@ export default class VersatileBanner extends Component {
                 />
               {{/if}}
             </div>
-
+            <div class="section-header">
+              {{htmlSafe settings.main_heading_content}}
+            </div>
             <div
               id="banner-content_wrap"
               class={{if
@@ -173,14 +175,6 @@ export default class VersatileBanner extends Component {
               }}
             >
               <div class="row">
-                <!-- first (wide) column with heading/content -->
-                <div class="first_column single-box">
-                  <div class="section-header">
-                    {{htmlSafe settings.main_heading_content}}
-                  </div>
-                </div>
-
-                <!-- remaining columns (thumbnails / content) -->
                 {{#each this.columnData as |data|}}
                   <VersatileBannerColumn
                     @columnContent={{data.content}}
