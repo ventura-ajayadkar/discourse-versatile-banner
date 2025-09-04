@@ -144,6 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    gap: 8px; // reduced gap between columns
 
     .single-box {
       /* make each column a flexible column so children can use height:100% */
@@ -151,7 +152,7 @@
       min-height: 1px;
       display: flex;
       flex-direction: column;
-      padding: 0 15px; /* remove bottom padding so inner content can reach full height */
+      padding: 0 8px; /* reduced horizontal padding */
       text-align: center;
 
       .icon {
