@@ -103,40 +103,55 @@ second_column_content:
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://placehold.co/300x250/orange/white?text=Image+2" alt="Image 2" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+        <img src="https://placehold.co/300x250/orange/white?text=Product+updates" alt="Product updates" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
       </div>
-      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 2</div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Product updates</div>
     </div>
+second_column_url:
+  type: string
+  default: "/c/product-updates"    # e.g. "/c/your-category-slug" or full URL
+
 third_column_content:
   type: string
   textarea: true
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://placehold.co/300x250/orange/white?text=Image+3" alt="Image 3" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+        <img src="https://placehold.co/300x250/orange/white?text=Developer+APIs" alt="Developer APIs" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
       </div>
-      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 3</div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Developer APIs</div>
     </div>
+third_column_url:
+  type: string
+  default: "/c/developer-api"
+
 fourth_column_content:
   type: string
   textarea: true
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://placehold.co/300x250/orange/white?text=Image+4" alt="Image 4" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+        <img src="https://placehold.co/300x250/orange/white?text=Feature+Request" alt="Feature+Request" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
       </div>
-      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 4</div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Feature+Request</div>
     </div>
+fourth_column_url:
+  type: string
+  default: "/c/feature-request"
+
 fifth_column_content:
   type: string
   textarea: true
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://placehold.co/300x250/orange/white?text=Image+5" alt="Image 5" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
+        <img src="https://placehold.co/300x250/orange/white?text=General" alt="General" style="width:100%;height:100%;object-fit:cover;margin:0;border:0;display:block;">
       </div>
-      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">Image 5</div>
+      <div style="font-size:16px;font-weight:700;text-align:center;margin-top:8px;color:#333">General</div>
     </div>
+fifth_column_url:
+  type: string
+  default: "/c/general"
 first_column_size:
   type: string
   default: "48%"

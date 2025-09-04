@@ -34,26 +34,31 @@ export default class VersatileBanner extends Component {
       content: settings.first_column_content,
       class: "first_column",
       icon: convertIconClass(settings.first_column_icon),
+      url: settings.first_column_url || ""
     },
     {
       content: settings.second_column_content,
       class: "second_column",
       icon: convertIconClass(settings.second_column_icon),
+      url: settings.second_column_url || ""
     },
     {
       content: settings.third_column_content,
       class: "third_column",
       icon: convertIconClass(settings.third_column_icon),
+      url: settings.third_column_url || ""
     },
     {
       content: settings.fourth_column_content,
       class: "fourth_column",
       icon: convertIconClass(settings.fourth_column_icon),
+      url: settings.fourth_column_url || ""
     },
     {
       content: settings.fifth_column_content,
       class: "fifth_column",
       icon: convertIconClass(settings.fifth_column_icon),
+      url: settings.fifth_column_url || ""
     },
   ];
 
@@ -180,12 +185,16 @@ export default class VersatileBanner extends Component {
               }}
             >
               <div class="row">
-                {{#each this.columnData as |data|}}
-                  <VersatileBannerColumn
-                    @columnContent={{data.content}}
-                    @icon={{data.icon}}
-                    @columnClass={{data.class}}
-                  />
+                {{#each this.columnData as |column|}}
+                  <div class="single-box {{column.class}}">
+                    {{#if column.url}}
+                      <a href="{{column.url}}" class="column-link" role="link" rel="noopener">
+                        {{{column.content}}}
+                      </a>
+                    {{else}}
+                      {{{column.content}}}
+                    {{/if}}
+                  </div>
                 {{/each}}
               </div>
             </div>

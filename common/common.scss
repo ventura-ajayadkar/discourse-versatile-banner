@@ -422,3 +422,25 @@
     transition: max-height 0.5s ease;
   }
 }
+
+.banner-box {
+  .row {
+    .single-box {
+      /* ensure link fills the column so clicking anywhere triggers navigation */
+      .column-link {
+        display: block;
+        height: 100%;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      /* keep centered image layout but let anchor contain it */
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
