@@ -140,7 +140,7 @@ fifth_column_content:
     </div>
 first_column_size:
   type: string
-  default: "30%"
+  default: "20%"
 second_column_size:
   type: string
   default: "15%"
