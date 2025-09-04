@@ -1,10 +1,10 @@
-@if $display_on_desktop == "false" {
+@if $display_on_desktop == false or $display_on_desktop == "false" {
   .desktop-view .banner-box {
     display: none !important;
   }
 }
 
-@if $display_on_mobile == "false" {
+@if $display_on_mobile == false or $display_on_mobile == "false" {
   .mobile-view .banner-box {
     display: none !important;
   }
