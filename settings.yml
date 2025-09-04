@@ -43,7 +43,7 @@ cookie_name:
   default: "v1"
 full_width_banner:
   type: bool
-  default: true
+  default: false
 swap_default_positioning:
   type: bool
   default: false
