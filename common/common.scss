@@ -204,6 +204,67 @@
   }
 }
 
+/* Layout: left big text, right small thumbnails */
+.banner-box .row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Make the first column wide */
+.first_column {
+  flex: 0 0 60%;
+  max-width: 60%;
+  text-align: left;
+
+  .section-header {
+    padding: 30px 20px;
+  }
+}
+
+/* Make the other columns small and equal */
+.second_column,
+.third_column,
+.fourth_column {
+  flex: 0 0 calc(40% / 3); /* each takes ~13.33% when first col is 60% */
+  max-width: calc(40% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure images in thumbnail columns are sized like the design */
+.single-box .responsive-img,
+.single-box img {
+  width: 100%;
+  height: auto;
+  max-height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Mobile: stack vertically (existing mobile rules already wrap but ensure first column on top) */
+@media screen and (max-width: 736px) {
+  .banner-box .row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .first_column,
+  .second_column,
+  .third_column,
+  .fourth_column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .single-box .responsive-img,
+  .single-box img {
+    max-height: 200px;
+    width: 100%;
+  }
+}
+
 // Category Banners Tweaks
 .category-header {
   #main .banner-box {
