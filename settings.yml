@@ -154,19 +154,19 @@ fifth_column_url:
   default: "/c/general"
 first_column_size:
   type: string
-  default: "36%"
+  default: "32%"
 second_column_size:
   type: string
-  default: "16%"
+  default: "17%"
 third_column_size:
   type: string
-  default: "16%"
+  default: "17%"
 fourth_column_size:
   type: string
-  default: "16%"
+  default: "17%"
 fifth_column_size:
   type: string
-  default: "16%"
+  default: "17%"
 first_column_icon:
   type: string
   default: ""
