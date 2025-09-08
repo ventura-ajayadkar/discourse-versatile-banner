@@ -343,13 +343,20 @@
 
 @if $full_width_banner == "true" {
   #main .banner-box {
-    width: unset;
-    max-width: unset;
+    /* make banner background full width */
+    width: 100%;
+    max-width: none;
     margin: 0;
     padding-bottom: 20px; // only bottom padding for full-width banner
+
+    /* constrain only the column/content area (not the background) */
     .container {
-      max-width: 90%;
+      max-width: 1150px;   // <-- limit content width
+      width: 100%;
       margin: 0 auto;
+      padding-left: 16px;  // optional inner horizontal padding so content doesn't touch edges
+      padding-right: 16px;
+      box-sizing: border-box;
     }
   }
 
