@@ -344,9 +344,9 @@
 @if $full_width_banner == "true" {
   #main .banner-box {
     width: unset;
-    max-width: unset;
-    margin: 0;
-    padding-bottom: 20px; // only bottom padding for full-width banner
+    max-width: 1150px;        // limit full-width banner content
+    margin: 0 auto;           // center the banner within the viewport
+    padding-bottom: 20px;     // only bottom padding for full-width banner
     .container {
       max-width: 90%;
       margin: 0 auto;
