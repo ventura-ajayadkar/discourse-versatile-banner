@@ -121,7 +121,7 @@ third_column_content:
     </div>
 third_column_url:
   type: string
-  default: "/c/developer-api"
+  default: "/c/ease-api"
 
 fourth_column_content:
   type: string
