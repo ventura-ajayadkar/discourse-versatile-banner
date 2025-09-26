@@ -103,7 +103,7 @@ second_column_content:
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-annoucements.png" alt="Annoucements" style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:4px;">
+        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-annoucements.png" alt="Annoucements" style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:8px;">
       </div>
     </div>
 second_column_url:
@@ -116,7 +116,7 @@ third_column_content:
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-EaseAPI.png" alt="EaseAPI" style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:4px;">
+        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-EaseAPI.png" alt="EaseAPI" style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:8px;">
       </div>
     </div>
 third_column_url:
@@ -129,7 +129,7 @@ fourth_column_content:
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-Trading.png" alt="Trading - Stocks/F&O/ETF " style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:4px;">
+        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-Trading.png" alt="Trading - Stocks/F&O/ETF " style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:8px;">
       </div>
     </div>
 fourth_column_url:
@@ -142,7 +142,7 @@ fifth_column_content:
   default: |
     <div style="display:flex;flex-direction:column;height:100%;min-height:0;width:100%;box-sizing:border-box;padding:8px 0;margin:0;">
       <div style="flex:1;min-height:0;width:100%;">
-        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-MTF.png" alt="MTF" style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:4px;">
+        <img src="https://raw.githubusercontent.com/ventura-ajayadkar/discourse-versatile-banner/main/images/banner-MTF.png" alt="MTF" style="width:100%;height:110px;object-fit:cover;margin:0;border:0;display:block;border-radius:8px;">
       </div>
     </div>
 fifth_column_url:
