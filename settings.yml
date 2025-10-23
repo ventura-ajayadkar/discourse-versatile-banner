@@ -147,7 +147,7 @@ fifth_column_content:
     </div>
 fifth_column_url:
   type: string
-  default: "/c/trading-stocks-fo-etf"
+  default: "/c/mtf"
 first_column_size:
   type: string
   default: "32%"
